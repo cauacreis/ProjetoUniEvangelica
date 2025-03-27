@@ -4,9 +4,9 @@ Esta API fornece funcionalidades para gerenciar blocos, salas, reservas e relat�
 
 ## Pré-requisitos 📋
 
-Node.js (versão 17 ou superior)
-MongoDB
-Postman
+Node.js (versão 17 ou superior)\n
+MongoDB\n
+Postman\n
 
 ## Processo de Iniciamento
 
