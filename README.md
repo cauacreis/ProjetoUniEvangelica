@@ -4,33 +4,40 @@ Esta API fornece funcionalidades para gerenciar blocos, salas, reservas e relat�
 
 ## Pré-requisitos 📋
 
-Node.js (versão 17 ou superior)\n
-MongoDB\n
-Postman\n
+Node.js (versão 17 ou superior)
+
+MongoDB
+
+Postman
 
 ## Processo de Iniciamento
 
 Baixe a aplicação do GITHUB.
+
 Inicie o MongoDB Compass, crie um banco de dados denominado como "atividade" e 3 coleções chamadas: "bloco", 
 "reservas", "sala". E logo após criar, conecte-se ao banco de dados.
+
 Depois inicie o CMD e copie o endereço da pasta da aplicação baixada. Digite no CMD o seguinte comando:
+
 cd C:\Users\PC\Desktop\XXXXXXXXXX  <-Isso com o seu endereço
-Logo após instale os pacotes com npm i, apos a finalização, inicie o projeto com npm run dev
+
+Logo após instale os pacotes com npm i, apos a finalização, inicie o projeto com npm run dev.
+
 Abra o POSTMAN, aperte em "Get Started", logo após crie uma nova coleção e digite na barra o seguinte comando "http://localhost:21047/", com isso feito você poderá seguir com as utilidades da API, colocando cada comando na frente desse comando que disponibilizei agora.
 
 ## Rotas da API
 Blocos
 | GET /bloco - Lista todos os blocos
-|
+
 | GET /bloco/:id - Obtém um bloco específico
-|
+
 | POST /bloco - Cria um novo bloco
 | * Você deve apertar em BODY e preencher as informações necessárias:
 | "nome": XXXXX
 | "identificacao": XXXXX
-|
+
 | PUT /bloco/:id - Atualiza um bloco
-|
+
 | DELETE /bloco/:id - Remove um bloco
 ## Salas
 | GET /sala - Lista todas as salas
