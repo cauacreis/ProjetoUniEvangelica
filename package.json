@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend to in-Tech ERP SC",
+  "main": "loader.js",
+  "scripts": {
+    "dev": "nodemon loader.js",
+    "production": "pm2 start loader.js --name backend"
+  },
+  "author": "sirob",
+  "license": "ISC",
+  "dependencies": {
+    "async-require": "^1.2.2",
+    "discord.js": "^12.5.3",
+    "express": "^4.16.1",
+    "express-query-int": "^2.0.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.6",
+    "multer": "^1.3.1",
+    "mysql": "^2.15.0",
+    "node-cron": "^3.0.0",
+    "node-restful": "^0.2.6",
+    "nodemailer": "^6.3.1",
+    "pm2": "^2.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

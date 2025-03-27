@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+
+# backups do banco
+db/
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+#PDF
+Pdfs/
